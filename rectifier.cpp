@@ -63,6 +63,7 @@ void Rectifier::update(DefaultGUIModel::update_flags_t flag) {
 			period = RT::System::getInstance()->getPeriod() * 1e-6; // ms
 			rectifier_type = half;
 			gain = 1.0;
+			setParameter("Gain", gain);
 			HalfButton->setDown(true);
 			break;
 
