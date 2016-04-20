@@ -27,7 +27,7 @@ extern "C" Plugin::Object *createRTXIPlugin(void){
 static DefaultGUIModel::variable_t vars[] = {
 	{ "Signal In", "Signal to rectify", DefaultGUIModel::INPUT, }, 
 	{ "Signal Out", "Rectified signal", DefaultGUIModel::OUTPUT, }, 
-	{ "Gain", "Optional gain of rectified output", DefaultGUIModel::PARAMETER }, 
+	{ "Gain", "Optional gain of rectified output", DefaultGUIModel::PARAMETER | DefaultGUIModel::DOUBLE }, 
 };
 
 static size_t num_vars = sizeof(vars) / sizeof(DefaultGUIModel::variable_t);
