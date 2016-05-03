@@ -1,16 +1,22 @@
-###Rectifier
+### Rectifier
 
-**Requirements:** None  
-**Limitations:** None  
+**Requirements:** none
+**Limitations:** none
 
-![Rectifier](rectifier.png)
+![Rectifier GUI](rectifier.png)
 
 <!--start-->
-This is the plugin template, also known in previous versions as MyPluginGUI. It is designed to provide a simplified interface with which anyone fork into custom RTXI modules. For instructions and tutorials regarding its use, see [the documentation on our website](http://rtxi.org/docs/tutorials/2015/04/15/understanding-plugin-template/). 
+<p><b>Rectifier:</b><br>QWhatsThis description.</p>
 <!--end-->
 
-####Paramaters
-1. GUI Label - Example parameter
+#### Input
+1. input(0) - Signal In : Signal to rectify
 
-####States
-1. A State - An example state
+#### Output
+1. output(0) - Signal Out : Rectified signal
+
+#### Parameters
+1. Gain - Optional gain of rectified output
+
+#### States
+
