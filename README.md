@@ -1,7 +1,7 @@
 ### Rectifier
 
-**Requirements:** none
-**Limitations:** none
+**Requirements:** None  
+**Limitations:** None  
 
 ![Rectifier GUI](rectifier.png)
 
